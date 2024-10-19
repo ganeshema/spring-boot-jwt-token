@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: jwt-security
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/jwt_security
+    username: postgres
+    password: mypassword
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+jwt:
+  secret: d0b7b7aa104551f4032ba8e3cb7fcac6ac498a383d756ed07a3b5365cf18886af054ae1221cae96616b32f49eabf8256ff2e91c5614c1ead12eb17832f70f40a3258b6d820800f9645a0d24a3d0a7a9ac2a92fec82f98ab376c4f0a0476f9e4180b79f5252f3dbb6189742c03b134e741529e1ca929ff3a01cd04b09f64cbda679cf6f9aa1d96a6eb7de2f5651b7c9039b1f632fd049ef4e078c67d03fa7bd2da1771173400ac3d378d07e3d662b1288a531d3cf4965ea6263e16ca7bd92c396dd06825dd13c2d024c08f64c097d1477989be4a9e6a52d1161d5785e9ba85efea604e259f95f683ced5bb420813eef220b4b868ba937189c147316194d1de7ec
+
+
+
